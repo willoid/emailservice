@@ -73,6 +73,6 @@ class EmailController extends Controller
     public function showMessage(){
         //get all messages
         $messages = Message::all();
-        return view('message-history', compact('messages'));
+        return view('message-detail', compact('messages'));
     }
 }
