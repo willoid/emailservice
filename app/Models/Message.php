@@ -9,7 +9,7 @@ class Message extends Model
 {
     use HasFactory;
 
-    protected $fillablle= [
+    protected $fillable= [
         'name',
         'email',
         'subject',
